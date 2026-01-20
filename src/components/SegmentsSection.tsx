@@ -1,30 +1,33 @@
 import { motion } from "framer-motion";
 import { Heart, Building2, Laptop, RefreshCw } from "lucide-react";
-
-const segments = [
-  {
-    icon: Heart,
-    title: "Saúde",
-    description: "Sistemas críticos com alta disponibilidade, compliance e integração entre múltiplos sistemas.",
-  },
-  {
-    icon: Building2,
-    title: "Bancos digitais",
-    description: "Arquiteturas escaláveis para processamento de transações em tempo real.",
-  },
-  {
-    icon: Laptop,
-    title: "Plataformas SaaS",
-    description: "Multi-tenancy, escalabilidade horizontal e otimização de custos em cloud.",
-  },
-  {
-    icon: RefreshCw,
-    title: "Empresas em modernização",
-    description: "Migração de legado para arquiteturas modernas sem interromper o negócio.",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const SegmentsSection = () => {
+  const { t } = useLanguage();
+
+  const segments = [
+    {
+      icon: Heart,
+      title: t("segments.items.health.title"),
+      description: t("segments.items.health.description"),
+    },
+    {
+      icon: Building2,
+      title: t("segments.items.banking.title"),
+      description: t("segments.items.banking.description"),
+    },
+    {
+      icon: Laptop,
+      title: t("segments.items.saas.title"),
+      description: t("segments.items.saas.description"),
+    },
+    {
+      icon: RefreshCw,
+      title: t("segments.items.modernization.title"),
+      description: t("segments.items.modernization.description"),
+    },
+  ];
+
   return (
     <section className="py-24 md:py-32 relative bg-card/30">
       <div className="section-container">
@@ -36,10 +39,10 @@ export const SegmentsSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            Segmentos que <span className="gradient-text">Atendemos</span>
+            {t("segments.title")} <span className="gradient-text">{t("segments.titleHighlight")}</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Experiência comprovada em setores com alta demanda por confiabilidade e escala.
+            {t("segments.subtitle")}
           </p>
         </motion.div>
         

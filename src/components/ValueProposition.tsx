@@ -1,33 +1,6 @@
 import { motion } from "framer-motion";
 import { Zap, Shield, Cloud, Eye, GitBranch, ArrowUpRight } from "lucide-react";
-
-const valueProps = [
-  {
-    icon: Zap,
-    title: "Arquitetura orientada a eventos",
-    description: "Sistemas desacoplados e reativos que escalam conforme a demanda.",
-  },
-  {
-    icon: Shield,
-    title: "Modernização sem riscos",
-    description: "Estratégias incrementais que preservam o negócio enquanto evoluem a tecnologia.",
-  },
-  {
-    icon: Cloud,
-    title: "Cloud escalável e segura",
-    description: "Infraestrutura otimizada para performance, custo e compliance.",
-  },
-  {
-    icon: Eye,
-    title: "Observabilidade e resiliência",
-    description: "Visibilidade total e recuperação automática para sistemas críticos.",
-  },
-  {
-    icon: GitBranch,
-    title: "Entregas incrementais com Scrum",
-    description: "Valor entregue continuamente com feedback constante.",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -49,6 +22,36 @@ const itemVariants = {
 };
 
 export const ValueProposition = () => {
+  const { t } = useLanguage();
+
+  const valueProps = [
+    {
+      icon: Zap,
+      title: t("value.props.events.title"),
+      description: t("value.props.events.description"),
+    },
+    {
+      icon: Shield,
+      title: t("value.props.modernization.title"),
+      description: t("value.props.modernization.description"),
+    },
+    {
+      icon: Cloud,
+      title: t("value.props.cloud.title"),
+      description: t("value.props.cloud.description"),
+    },
+    {
+      icon: Eye,
+      title: t("value.props.observability.title"),
+      description: t("value.props.observability.description"),
+    },
+    {
+      icon: GitBranch,
+      title: t("value.props.scrum.title"),
+      description: t("value.props.scrum.description"),
+    },
+  ];
+
   return (
     <section id="proposta" className="py-24 md:py-32 relative">
       <div className="section-container">
@@ -60,10 +63,10 @@ export const ValueProposition = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            Por que a <span className="gradient-text">Archflow</span>?
+            {t("value.title")} <span className="gradient-text">{t("value.titleHighlight")}</span>?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Combinamos expertise técnica profunda com uma abordagem centrada no negócio.
+            {t("value.subtitle")}
           </p>
         </motion.div>
         
