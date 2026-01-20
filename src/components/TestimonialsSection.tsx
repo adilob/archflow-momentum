@@ -1,25 +1,28 @@
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
-
-const testimonials = [
-  {
-    quote: "Depoimento disponível em breve.",
-    author: "Cliente do setor de saúde",
-    role: "CTO",
-  },
-  {
-    quote: "Depoimento disponível em breve.",
-    author: "Cliente do setor financeiro",
-    role: "VP de Engenharia",
-  },
-  {
-    quote: "Depoimento disponível em breve.",
-    author: "Cliente SaaS",
-    role: "Head of Engineering",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const TestimonialsSection = () => {
+  const { t } = useLanguage();
+
+  const testimonials = [
+    {
+      quote: t("testimonials.placeholder"),
+      author: t("testimonials.clients.health"),
+      role: "CTO",
+    },
+    {
+      quote: t("testimonials.placeholder"),
+      author: t("testimonials.clients.finance"),
+      role: "VP of Engineering",
+    },
+    {
+      quote: t("testimonials.placeholder"),
+      author: t("testimonials.clients.saas"),
+      role: "Head of Engineering",
+    },
+  ];
+
   return (
     <section className="py-24 md:py-32 relative">
       <div className="section-container">
@@ -31,10 +34,10 @@ export const TestimonialsSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            O que dizem nossos <span className="gradient-text">Clientes</span>
+            {t("testimonials.title")} <span className="gradient-text">{t("testimonials.titleHighlight")}</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Feedbacks de quem já transformou sua arquitetura conosco.
+            {t("testimonials.subtitle")}
           </p>
         </motion.div>
         

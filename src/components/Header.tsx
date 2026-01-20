@@ -2,18 +2,21 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import ArchflowLogo from "./ArchflowLogo";
-
-const navItems = [
-  { label: "Serviços", href: "#servicos" },
-  { label: "Como Trabalhamos", href: "#processo" },
-  { label: "Stack", href: "#stack" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Contato", href: "#contato" },
-];
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { t } = useLanguage();
+
+  const navItems = [
+    { label: t("header.services"), href: "#servicos" },
+    { label: t("header.process"), href: "#processo" },
+    { label: t("header.stack"), href: "#stack" },
+    { label: t("header.faq"), href: "#faq" },
+    { label: t("header.contact"), href: "#contato" },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,7 +48,7 @@ export const Header = () => {
           <ArchflowLogo size="md" />
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
               <button
                 key={item.href}
@@ -55,22 +58,26 @@ export const Header = () => {
                 {item.label}
               </button>
             ))}
+            <LanguageSwitcher />
             <button
               onClick={() => handleNavClick("#contato")}
               className="btn-gradient text-sm"
             >
-              Agendar conversa
+              {t("header.cta")}
             </button>
           </div>
           
           {/* Mobile Menu Button */}
-          <button
-            className="md:hidden p-2 text-foreground"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="md:hidden flex items-center gap-3">
+            <LanguageSwitcher />
+            <button
+              className="p-2 text-foreground"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
       </nav>
       
@@ -98,7 +105,7 @@ export const Header = () => {
                 onClick={() => handleNavClick("#contato")}
                 className="btn-gradient text-center mt-2"
               >
-                Agendar conversa
+                {t("header.cta")}
               </button>
             </div>
           </motion.div>

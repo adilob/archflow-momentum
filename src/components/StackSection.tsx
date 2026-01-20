@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const technologies = [
   ".NET", "C#", "Azure", "AWS", "Kubernetes", "Terraform",
@@ -7,6 +8,8 @@ const technologies = [
 ];
 
 export const StackSection = () => {
+  const { t } = useLanguage();
+
   return (
     <section id="stack" className="py-24 md:py-32 relative bg-card/30">
       <div className="section-container">
@@ -18,10 +21,10 @@ export const StackSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            Nossa <span className="gradient-text">Stack</span>
+            {t("stack.title")} <span className="gradient-text">{t("stack.titleHighlight")}</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Tecnologias e práticas que dominamos para entregar soluções robustas.
+            {t("stack.subtitle")}
           </p>
         </motion.div>
         
@@ -57,7 +60,7 @@ export const StackSection = () => {
         >
           <div className="glass-card p-8">
             <h3 className="font-display font-semibold text-center mb-8 text-lg">
-              Event-Driven Architecture Flow
+              {t("stack.diagramTitle")}
             </h3>
             <svg
               viewBox="0 0 600 120"
@@ -146,7 +149,7 @@ export const StackSection = () => {
               {/* Storage */}
               <g>
                 <rect x="480" y="35" width="100" height="50" rx="8" fill="none" stroke="#F59E0B" strokeWidth="1.5" opacity="0.7" />
-                <text x="530" y="60" textAnchor="middle" fill="#E5E7EB" fontSize="11" fontFamily="Space Grotesk">Persistência</text>
+                <text x="530" y="60" textAnchor="middle" fill="#E5E7EB" fontSize="11" fontFamily="Space Grotesk">{t("stack.diagramPersistence")}</text>
                 <text x="530" y="75" textAnchor="middle" fill="#94A3B8" fontSize="9" fontFamily="Inter">DB / Cache</text>
               </g>
               

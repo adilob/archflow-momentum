@@ -1,8 +1,11 @@
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import FlowingBackground from "./FlowingBackground";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const HeroSection = () => {
+  const { t } = useLanguage();
+
   const handleScrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
@@ -25,7 +28,7 @@ export const HeroSection = () => {
           >
             <span className="w-2 h-2 rounded-full bg-secondary animate-pulse" />
             <span className="text-sm text-muted-foreground">
-              Consultoria em Arquitetura de Software
+              {t("hero.badge")}
             </span>
           </motion.div>
           
@@ -36,8 +39,8 @@ export const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            Arquitetura que faz seus{" "}
-            <span className="gradient-text">sistemas fluírem</span>.
+            {t("hero.headline")}{" "}
+            <span className="gradient-text">{t("hero.headlineHighlight")}</span>.
           </motion.h1>
           
           {/* Subheadline */}
@@ -47,8 +50,7 @@ export const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Consultoria em cloud e event-driven architecture para empresas que 
-            precisam escalar com segurança.
+            {t("hero.subheadline")}
           </motion.p>
           
           {/* CTAs */}
@@ -62,14 +64,14 @@ export const HeroSection = () => {
               onClick={() => handleScrollToSection("#contato")}
               className="btn-gradient flex items-center gap-2 group"
             >
-              Agendar conversa
+              {t("hero.cta")}
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </button>
             <button
               onClick={() => handleScrollToSection("#servicos")}
               className="btn-outline flex items-center gap-2"
             >
-              Ver serviços
+              {t("hero.ctaSecondary")}
             </button>
           </motion.div>
           
@@ -81,7 +83,7 @@ export const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
           >
             <p className="text-sm text-muted-foreground mb-4">
-              Especialistas que guiam, criam e caminham junto com você
+              {t("hero.trust")}
             </p>
             <div className="flex flex-wrap items-center justify-center gap-6 text-muted-foreground/60">
               <span className="text-sm font-medium">Event-Driven</span>

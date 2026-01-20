@@ -1,34 +1,37 @@
 import { motion } from "framer-motion";
 import { Search, Map, Layers, RefreshCw, ArrowRight } from "lucide-react";
-
-const steps = [
-  {
-    number: "01",
-    icon: Search,
-    title: "Discovery & Diagnóstico",
-    description: "Imersão no contexto de negócio e tecnologia. Entendemos seus desafios, mapeamos a arquitetura atual e identificamos quick wins.",
-  },
-  {
-    number: "02",
-    icon: Map,
-    title: "Arquitetura & Roadmap",
-    description: "Desenhamos a arquitetura alvo e criamos um roadmap priorizado por valor de negócio e viabilidade técnica.",
-  },
-  {
-    number: "03",
-    icon: Layers,
-    title: "Entregas incrementais",
-    description: "Trabalhamos junto com seu time em sprints, entregando valor a cada iteração com transferência contínua de conhecimento.",
-  },
-  {
-    number: "04",
-    icon: RefreshCw,
-    title: "Operação & Evolução contínua",
-    description: "Acompanhamos a operação, refinamos a arquitetura e garantimos que o sistema evolua de forma sustentável.",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const ProcessSection = () => {
+  const { t } = useLanguage();
+
+  const steps = [
+    {
+      number: "01",
+      icon: Search,
+      title: t("process.steps.discovery.title"),
+      description: t("process.steps.discovery.description"),
+    },
+    {
+      number: "02",
+      icon: Map,
+      title: t("process.steps.architecture.title"),
+      description: t("process.steps.architecture.description"),
+    },
+    {
+      number: "03",
+      icon: Layers,
+      title: t("process.steps.delivery.title"),
+      description: t("process.steps.delivery.description"),
+    },
+    {
+      number: "04",
+      icon: RefreshCw,
+      title: t("process.steps.operation.title"),
+      description: t("process.steps.operation.description"),
+    },
+  ];
+
   return (
     <section id="processo" className="py-24 md:py-32 relative overflow-hidden">
       {/* Background accent */}
@@ -43,11 +46,10 @@ export const ProcessSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            Como <span className="gradient-text">Trabalhamos</span>
+            {t("process.title")} <span className="gradient-text">{t("process.titleHighlight")}</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Uma parceria próxima do início ao fim. Não entregamos documentos e vamos embora — 
-            caminhamos junto com você.
+            {t("process.subtitle")}
           </p>
         </motion.div>
         
@@ -104,7 +106,7 @@ export const ProcessSection = () => {
           transition={{ duration: 0.5 }}
         >
           <p className="text-muted-foreground mb-4">
-            Pronto para começar sua jornada de modernização?
+            {t("process.ctaSubtitle")}
           </p>
           <button
             onClick={() => {
@@ -113,7 +115,7 @@ export const ProcessSection = () => {
             }}
             className="btn-gradient inline-flex items-center gap-2 group"
           >
-            Vamos conversar
+            {t("process.cta")}
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </button>
         </motion.div>

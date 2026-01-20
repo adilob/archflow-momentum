@@ -8,41 +8,44 @@ import {
   GraduationCap,
   ArrowRight
 } from "lucide-react";
-
-const services = [
-  {
-    icon: Search,
-    title: "Assessment de arquitetura",
-    description: "Análise profunda da sua arquitetura atual, identificando gaps, riscos e oportunidades de melhoria.",
-  },
-  {
-    icon: Map,
-    title: "Roadmap de modernização",
-    description: "Planejamento estratégico com entregas incrementais que geram valor desde o primeiro sprint.",
-  },
-  {
-    icon: Palette,
-    title: "Design de soluções",
-    description: "Modelagem com DDD, diagramas C4 e ADRs para decisões arquiteturais documentadas.",
-  },
-  {
-    icon: Code,
-    title: "Implementação guiada",
-    description: "Acompanhamento hands-on do time durante a execução, garantindo qualidade e aprendizado.",
-  },
-  {
-    icon: Cloud,
-    title: "Plataforma Cloud & DevOps",
-    description: "Setup de infraestrutura como código, CI/CD, observabilidade e práticas de SRE.",
-  },
-  {
-    icon: GraduationCap,
-    title: "Workshops e treinamentos",
-    description: "Capacitação do time em event-driven, DDD, cloud patterns e práticas modernas.",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const ServicesSection = () => {
+  const { t } = useLanguage();
+
+  const services = [
+    {
+      icon: Search,
+      title: t("services.items.assessment.title"),
+      description: t("services.items.assessment.description"),
+    },
+    {
+      icon: Map,
+      title: t("services.items.roadmap.title"),
+      description: t("services.items.roadmap.description"),
+    },
+    {
+      icon: Palette,
+      title: t("services.items.design.title"),
+      description: t("services.items.design.description"),
+    },
+    {
+      icon: Code,
+      title: t("services.items.implementation.title"),
+      description: t("services.items.implementation.description"),
+    },
+    {
+      icon: Cloud,
+      title: t("services.items.cloud.title"),
+      description: t("services.items.cloud.description"),
+    },
+    {
+      icon: GraduationCap,
+      title: t("services.items.workshops.title"),
+      description: t("services.items.workshops.description"),
+    },
+  ];
+
   const handleScrollToContact = () => {
     const element = document.querySelector("#contato");
     if (element) {
@@ -61,10 +64,10 @@ export const ServicesSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            Nossos <span className="gradient-text">Serviços</span>
+            {t("services.title")} <span className="gradient-text">{t("services.titleHighlight")}</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Soluções completas para cada fase da jornada de modernização.
+            {t("services.subtitle")}
           </p>
         </motion.div>
         
@@ -108,7 +111,7 @@ export const ServicesSection = () => {
             onClick={handleScrollToContact}
             className="btn-outline inline-flex items-center gap-2 group"
           >
-            Solicitar Architecture Health Check
+            {t("services.cta")}
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </button>
         </motion.div>

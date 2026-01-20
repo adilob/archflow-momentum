@@ -5,31 +5,34 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-
-const faqs = [
-  {
-    question: "Como funciona o contrato?",
-    answer: "Trabalhamos com contratos flexíveis, podendo ser por projeto, sprints ou retainer mensal. Definimos escopo, entregas e métricas de sucesso juntos antes de começar.",
-  },
-  {
-    question: "Quanto tempo leva o assessment?",
-    answer: "Um assessment típico leva de 2 a 4 semanas, dependendo da complexidade do sistema. Ao final, você recebe um relatório detalhado com diagnóstico, recomendações priorizadas e roadmap sugerido.",
-  },
-  {
-    question: "Vocês garantem confidencialidade?",
-    answer: "Sim, assinamos NDA antes de qualquer imersão. Toda informação de negócio e código é tratada com máximo sigilo.",
-  },
-  {
-    question: "O trabalho é remoto?",
-    answer: "Sim, trabalhamos 100% remoto com equipes distribuídas. Usamos ferramentas de colaboração assíncrona e síncrona para manter alinhamento contínuo.",
-  },
-  {
-    question: "Quais modelos de entrega vocês oferecem?",
-    answer: "Oferecemos: (1) Consultoria pontual para decisões arquiteturais, (2) Squads dedicados para implementação, (3) Coaching e mentoria para times internos, (4) Workshops e treinamentos customizados.",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const FAQSection = () => {
+  const { t } = useLanguage();
+
+  const faqs = [
+    {
+      question: t("faq.items.contract.question"),
+      answer: t("faq.items.contract.answer"),
+    },
+    {
+      question: t("faq.items.assessment.question"),
+      answer: t("faq.items.assessment.answer"),
+    },
+    {
+      question: t("faq.items.confidentiality.question"),
+      answer: t("faq.items.confidentiality.answer"),
+    },
+    {
+      question: t("faq.items.remote.question"),
+      answer: t("faq.items.remote.answer"),
+    },
+    {
+      question: t("faq.items.delivery.question"),
+      answer: t("faq.items.delivery.answer"),
+    },
+  ];
+
   return (
     <section id="faq" className="py-24 md:py-32 relative bg-card/30">
       <div className="section-container">
@@ -41,10 +44,10 @@ export const FAQSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            Perguntas <span className="gradient-text">Frequentes</span>
+            {t("faq.title")} <span className="gradient-text">{t("faq.titleHighlight")}</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Tire suas dúvidas sobre como trabalhamos.
+            {t("faq.subtitle")}
           </p>
         </motion.div>
         

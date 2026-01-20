@@ -1,25 +1,28 @@
 import { motion } from "framer-motion";
 import { FolderOpen, ArrowUpRight } from "lucide-react";
-
-const cases = [
-  {
-    title: "Modernização de plataforma de saúde",
-    tags: ["Event-Driven", "Azure", "Microservices"],
-    status: "Em breve",
-  },
-  {
-    title: "Arquitetura para banco digital",
-    tags: ["AWS", "Kubernetes", "DDD"],
-    status: "Em breve",
-  },
-  {
-    title: "Migração de monolito SaaS",
-    tags: ["Cloud Native", "Terraform", "CI/CD"],
-    status: "Em breve",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const CasesSection = () => {
+  const { t } = useLanguage();
+
+  const cases = [
+    {
+      title: t("cases.items.health.title"),
+      tags: ["Event-Driven", "Azure", "Microservices"],
+      status: t("cases.status"),
+    },
+    {
+      title: t("cases.items.banking.title"),
+      tags: ["AWS", "Kubernetes", "DDD"],
+      status: t("cases.status"),
+    },
+    {
+      title: t("cases.items.saas.title"),
+      tags: ["Cloud Native", "Terraform", "CI/CD"],
+      status: t("cases.status"),
+    },
+  ];
+
   return (
     <section id="cases" className="py-24 md:py-32 relative">
       <div className="section-container">
@@ -31,10 +34,10 @@ export const CasesSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            Cases de <span className="gradient-text">Sucesso</span>
+            {t("cases.title")} <span className="gradient-text">{t("cases.titleHighlight")}</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Resultados reais de transformações arquiteturais.
+            {t("cases.subtitle")}
           </p>
         </motion.div>
         
