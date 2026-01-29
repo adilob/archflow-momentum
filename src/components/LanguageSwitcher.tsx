@@ -1,11 +1,14 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import { useLanguage, Language } from "@/contexts/LanguageContext";
 
 export const LanguageSwitcher = () => {
   const { language, setLanguage } = useLanguage();
+  const navigate = useNavigate();
 
   const handleSwitch = (lang: Language) => {
     setLanguage(lang);
+    navigate(`/${lang}`);
   };
 
   return (

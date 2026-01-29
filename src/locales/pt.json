@@ -1,0 +1,213 @@
+{
+  "header": {
+    "services": "Serviços",
+    "process": "Como Trabalhamos",
+    "stack": "Stack",
+    "faq": "FAQ",
+    "contact": "Contato",
+    "cta": "Agendar conversa"
+  },
+  "hero": {
+    "badge": "Consultoria em Arquitetura de Software",
+    "headline": "Arquitetura que faz seus",
+    "headlineHighlight": "sistemas fluírem",
+    "subheadline": "Consultoria em cloud e event-driven architecture para empresas que precisam escalar com segurança.",
+    "cta": "Agendar conversa",
+    "ctaSecondary": "Ver serviços",
+    "trust": "Especialistas que guiam, criam e caminham junto com você"
+  },
+  "value": {
+    "title": "Por que a",
+    "titleHighlight": "Archflow",
+    "subtitle": "Combinamos expertise técnica profunda com uma abordagem centrada no negócio.",
+    "props": {
+      "events": {
+        "title": "Arquitetura orientada a eventos",
+        "description": "Sistemas desacoplados e reativos que escalam conforme a demanda."
+      },
+      "modernization": {
+        "title": "Modernização sem riscos",
+        "description": "Estratégias incrementais que preservam o negócio enquanto evoluem a tecnologia."
+      },
+      "cloud": {
+        "title": "Cloud escalável e segura",
+        "description": "Infraestrutura otimizada para performance, custo e compliance."
+      },
+      "observability": {
+        "title": "Observabilidade e resiliência",
+        "description": "Visibilidade total e recuperação automática para sistemas críticos."
+      },
+      "scrum": {
+        "title": "Entregas incrementais com Scrum",
+        "description": "Valor entregue continuamente com feedback constante."
+      }
+    }
+  },
+  "services": {
+    "title": "Nossos",
+    "titleHighlight": "Serviços",
+    "subtitle": "Soluções completas para cada fase da jornada de modernização.",
+    "cta": "Agendar conversa",
+    "items": {
+      "assessment": {
+        "title": "Assessment de arquitetura",
+        "description": "Análise profunda da sua arquitetura atual, identificando gaps, riscos e oportunidades de melhoria."
+      },
+      "roadmap": {
+        "title": "Roadmap de modernização",
+        "description": "Planejamento estratégico com entregas incrementais que geram valor desde o primeiro sprint."
+      },
+      "design": {
+        "title": "Design de soluções",
+        "description": "Modelagem com DDD, diagramas C4 e ADRs para decisões arquiteturais documentadas."
+      },
+      "implementation": {
+        "title": "Implementação guiada",
+        "description": "Acompanhamento hands-on do time durante a execução, garantindo qualidade e aprendizado."
+      },
+      "cloud": {
+        "title": "Plataforma Cloud & DevOps",
+        "description": "Setup de infraestrutura como código, CI/CD, observabilidade e práticas de SRE."
+      },
+      "workshops": {
+        "title": "Workshops e treinamentos",
+        "description": "Capacitação do time em event-driven, DDD, cloud patterns e práticas modernas."
+      }
+    }
+  },
+  "process": {
+    "title": "Como",
+    "titleHighlight": "Trabalhamos",
+    "subtitle": "Uma parceria próxima do início ao fim. Não entregamos documentos e vamos embora — caminhamos junto com você.",
+    "cta": "Vamos conversar",
+    "ctaSubtitle": "Pronto para começar sua jornada de modernização?",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Diagnóstico",
+        "description": "Imersão no contexto de negócio e tecnologia. Entendemos seus desafios, mapeamos a arquitetura atual e identificamos quick wins."
+      },
+      "architecture": {
+        "title": "Arquitetura & Roadmap",
+        "description": "Desenhamos a arquitetura alvo e criamos um roadmap priorizado por valor de negócio e viabilidade técnica."
+      },
+      "delivery": {
+        "title": "Entregas incrementais",
+        "description": "Trabalhamos junto com seu time em sprints, entregando valor a cada iteração com transferência contínua de conhecimento."
+      },
+      "operation": {
+        "title": "Operação & Evolução contínua",
+        "description": "Acompanhamos a operação, refinamos a arquitetura e garantimos que o sistema evolua de forma sustentável."
+      }
+    }
+  },
+  "segments": {
+    "title": "Segmentos que",
+    "titleHighlight": "Atendemos",
+    "subtitle": "Experiência comprovada em setores com alta demanda por confiabilidade e escala.",
+    "items": {
+      "health": {
+        "title": "Saúde",
+        "description": "Sistemas críticos com alta disponibilidade, compliance e integração entre múltiplos sistemas."
+      },
+      "banking": {
+        "title": "Bancos digitais",
+        "description": "Arquiteturas escaláveis para processamento de transações em tempo real."
+      },
+      "saas": {
+        "title": "Plataformas SaaS",
+        "description": "Multi-tenancy, escalabilidade horizontal e otimização de custos em cloud."
+      },
+      "modernization": {
+        "title": "Empresas em modernização",
+        "description": "Migração de legado para arquiteturas modernas sem interromper o negócio."
+      }
+    }
+  },
+  "cases": {
+    "title": "Cases de",
+    "titleHighlight": "Sucesso",
+    "subtitle": "Resultados reais de transformações arquiteturais.",
+    "status": "Em breve",
+    "items": {
+      "health": {
+        "title": "Modernização de plataforma de saúde"
+      },
+      "banking": {
+        "title": "Arquitetura para banco digital"
+      },
+      "saas": {
+        "title": "Migração de monolito SaaS"
+      }
+    }
+  },
+  "stack": {
+    "title": "Nossa",
+    "titleHighlight": "Stack",
+    "subtitle": "Tecnologias e práticas que dominamos para entregar soluções robustas.",
+    "diagramTitle": "Event-Driven Architecture Flow",
+    "diagramPersistence": "Persistência"
+  },
+  "testimonials": {
+    "title": "O que dizem nossos",
+    "titleHighlight": "Clientes",
+    "subtitle": "Feedbacks de quem já transformou sua arquitetura conosco.",
+    "placeholder": "Depoimento disponível em breve.",
+    "clients": {
+      "health": "Cliente do setor de saúde",
+      "finance": "Cliente do setor financeiro",
+      "saas": "Cliente SaaS"
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tire suas dúvidas sobre como trabalhamos.",
+    "items": {
+      "contract": {
+        "question": "Como funciona o contrato?",
+        "answer": "Trabalhamos com contratos flexíveis, podendo ser por projeto, sprints ou retainer mensal. Definimos escopo, entregas e métricas de sucesso juntos antes de começar."
+      },
+      "assessment": {
+        "question": "Quanto tempo leva o assessment?",
+        "answer": "Um assessment típico leva de 2 a 4 semanas, dependendo da complexidade do sistema. Ao final, você recebe um relatório detalhado com diagnóstico, recomendações priorizadas e roadmap sugerido."
+      },
+      "confidentiality": {
+        "question": "Vocês garantem confidencialidade?",
+        "answer": "Sim, assinamos NDA antes de qualquer imersão. Toda informação de negócio e código é tratada com máximo sigilo."
+      },
+      "remote": {
+        "question": "O trabalho é remoto?",
+        "answer": "Sim, trabalhamos 100% remoto com equipes distribuídas. Usamos ferramentas de colaboração assíncrona e síncrona para manter alinhamento contínuo."
+      },
+      "delivery": {
+        "question": "Quais modelos de entrega vocês oferecem?",
+        "answer": "Oferecemos: (1) Consultoria pontual para decisões arquiteturais, (2) Squads dedicados para implementação, (3) Coaching e mentoria para times internos, (4) Workshops e treinamentos customizados."
+      }
+    }
+  },
+  "contact": {
+    "title": "Vamos",
+    "titleHighlight": "Conversar",
+    "subtitle": "Conte-nos sobre seu desafio. Responderemos em até 24 horas.",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "Seu nome completo",
+      "email": "Email",
+      "emailPlaceholder": "seu@email.com",
+      "company": "Empresa",
+      "companyPlaceholder": "Nome da sua empresa",
+      "challenge": "Principal desafio",
+      "challengePlaceholder": "Ex: Modernização de legado",
+      "message": "Mensagem",
+      "messagePlaceholder": "Descreva brevemente seu cenário e objetivos...",
+      "submit": "Enviar mensagem",
+      "sending": "Enviando..."
+    },
+    "social": {
+      "title": "Ou entre em contato diretamente:"
+    }
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}

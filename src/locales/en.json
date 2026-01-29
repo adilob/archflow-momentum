@@ -1,0 +1,213 @@
+{
+  "header": {
+    "services": "Services",
+    "process": "How We Work",
+    "stack": "Stack",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Schedule a call"
+  },
+  "hero": {
+    "badge": "Software Architecture Consulting",
+    "headline": "Architecture that makes your",
+    "headlineHighlight": "systems flow",
+    "subheadline": "Cloud and event-driven architecture consulting for companies that need to scale with confidence.",
+    "cta": "Schedule a call",
+    "ctaSecondary": "View services",
+    "trust": "Specialists who guide, create, and walk alongside you"
+  },
+  "value": {
+    "title": "Why",
+    "titleHighlight": "Archflow",
+    "subtitle": "We combine deep technical expertise with a business-centered approach.",
+    "props": {
+      "events": {
+        "title": "Event-driven architecture",
+        "description": "Decoupled and reactive systems that scale on demand."
+      },
+      "modernization": {
+        "title": "Risk-free modernization",
+        "description": "Incremental strategies that preserve business while evolving technology."
+      },
+      "cloud": {
+        "title": "Scalable and secure cloud",
+        "description": "Infrastructure optimized for performance, cost, and compliance."
+      },
+      "observability": {
+        "title": "Observability and resilience",
+        "description": "Full visibility and automatic recovery for critical systems."
+      },
+      "scrum": {
+        "title": "Incremental delivery with Scrum",
+        "description": "Value delivered continuously with constant feedback."
+      }
+    }
+  },
+  "services": {
+    "title": "Our",
+    "titleHighlight": "Services",
+    "subtitle": "Complete solutions for every phase of the modernization journey.",
+    "cta": "Schedule a call",
+    "items": {
+      "assessment": {
+        "title": "Architecture assessment",
+        "description": "Deep analysis of your current architecture, identifying gaps, risks, and improvement opportunities."
+      },
+      "roadmap": {
+        "title": "Modernization roadmap",
+        "description": "Strategic planning with incremental deliveries that generate value from the first sprint."
+      },
+      "design": {
+        "title": "Solution design",
+        "description": "Modeling with DDD, C4 diagrams, and ADRs for documented architectural decisions."
+      },
+      "implementation": {
+        "title": "Guided implementation",
+        "description": "Hands-on support for your team during execution, ensuring quality and learning."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps platform",
+        "description": "Infrastructure as code setup, CI/CD, observability, and SRE practices."
+      },
+      "workshops": {
+        "title": "Workshops and training",
+        "description": "Team enablement on event-driven, DDD, cloud patterns, and modern practices."
+      }
+    }
+  },
+  "process": {
+    "title": "How We",
+    "titleHighlight": "Work",
+    "subtitle": "A close partnership from start to finish. We don't just deliver documents and leave — we walk alongside you.",
+    "cta": "Let's talk",
+    "ctaSubtitle": "Ready to start your modernization journey?",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Diagnosis",
+        "description": "Immersion in business and technology context. We understand your challenges, map the current architecture, and identify quick wins."
+      },
+      "architecture": {
+        "title": "Architecture & Roadmap",
+        "description": "We design the target architecture and create a roadmap prioritized by business value and technical feasibility."
+      },
+      "delivery": {
+        "title": "Incremental deliveries",
+        "description": "We work alongside your team in sprints, delivering value at each iteration with continuous knowledge transfer."
+      },
+      "operation": {
+        "title": "Operation & Continuous evolution",
+        "description": "We monitor operations, refine the architecture, and ensure the system evolves sustainably."
+      }
+    }
+  },
+  "segments": {
+    "title": "Industries We",
+    "titleHighlight": "Serve",
+    "subtitle": "Proven experience in sectors with high demand for reliability and scale.",
+    "items": {
+      "health": {
+        "title": "Healthcare",
+        "description": "Critical systems with high availability, compliance, and integration across multiple systems."
+      },
+      "banking": {
+        "title": "Digital banks",
+        "description": "Scalable architectures for real-time transaction processing."
+      },
+      "saas": {
+        "title": "SaaS platforms",
+        "description": "Multi-tenancy, horizontal scalability, and cloud cost optimization."
+      },
+      "modernization": {
+        "title": "Modernizing companies",
+        "description": "Legacy migration to modern architectures without disrupting business."
+      }
+    }
+  },
+  "cases": {
+    "title": "Success",
+    "titleHighlight": "Stories",
+    "subtitle": "Real results from architectural transformations.",
+    "status": "Coming soon",
+    "items": {
+      "health": {
+        "title": "Healthcare platform modernization"
+      },
+      "banking": {
+        "title": "Digital bank architecture"
+      },
+      "saas": {
+        "title": "SaaS monolith migration"
+      }
+    }
+  },
+  "stack": {
+    "title": "Our",
+    "titleHighlight": "Stack",
+    "subtitle": "Technologies and practices we master to deliver robust solutions.",
+    "diagramTitle": "Event-Driven Architecture Flow",
+    "diagramPersistence": "Persistence"
+  },
+  "testimonials": {
+    "title": "What Our",
+    "titleHighlight": "Clients Say",
+    "subtitle": "Feedback from those who have transformed their architecture with us.",
+    "placeholder": "Testimonial coming soon.",
+    "clients": {
+      "health": "Healthcare sector client",
+      "finance": "Financial sector client",
+      "saas": "SaaS client"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Get answers about how we work.",
+    "items": {
+      "contract": {
+        "question": "How does the contract work?",
+        "answer": "We work with flexible contracts, which can be per project, sprints, or monthly retainer. We define scope, deliverables, and success metrics together before starting."
+      },
+      "assessment": {
+        "question": "How long does the assessment take?",
+        "answer": "A typical assessment takes 2 to 4 weeks, depending on system complexity. At the end, you receive a detailed report with diagnosis, prioritized recommendations, and suggested roadmap."
+      },
+      "confidentiality": {
+        "question": "Do you guarantee confidentiality?",
+        "answer": "Yes, we sign an NDA before any immersion. All business and code information is treated with maximum confidentiality."
+      },
+      "remote": {
+        "question": "Is the work remote?",
+        "answer": "Yes, we work 100% remotely with distributed teams. We use asynchronous and synchronous collaboration tools to maintain continuous alignment."
+      },
+      "delivery": {
+        "question": "What delivery models do you offer?",
+        "answer": "We offer: (1) Punctual consulting for architectural decisions, (2) Dedicated squads for implementation, (3) Coaching and mentoring for internal teams, (4) Customized workshops and training."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's",
+    "titleHighlight": "Talk",
+    "subtitle": "Tell us about your challenge. We'll respond within 24 hours.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company name",
+      "challenge": "Main challenge",
+      "challengePlaceholder": "E.g.: Legacy modernization",
+      "message": "Message",
+      "messagePlaceholder": "Briefly describe your scenario and objectives...",
+      "submit": "Send message",
+      "sending": "Sending..."
+    },
+    "social": {
+      "title": "Or contact us directly:"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
