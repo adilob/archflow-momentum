@@ -1,213 +1,289 @@
 {
-  "header": {
-    "services": "Services",
-    "process": "How We Work",
-    "stack": "Stack",
-    "faq": "FAQ",
-    "contact": "Contact",
-    "cta": "Schedule a call"
-  },
-  "hero": {
-    "badge": "Software Architecture Consulting",
-    "headline": "Architecture that makes your",
-    "headlineHighlight": "systems flow",
-    "subheadline": "Cloud and event-driven architecture consulting for companies that need to scale with confidence.",
-    "cta": "Schedule a call",
-    "ctaSecondary": "View services",
-    "trust": "Specialists who guide, create, and walk alongside you"
-  },
-  "value": {
-    "title": "Why",
-    "titleHighlight": "Archflow",
-    "subtitle": "We combine deep technical expertise with a business-centered approach.",
-    "props": {
-      "events": {
-        "title": "Event-driven architecture",
-        "description": "Decoupled and reactive systems that scale on demand."
-      },
-      "modernization": {
-        "title": "Risk-free modernization",
-        "description": "Incremental strategies that preserve business while evolving technology."
-      },
-      "cloud": {
-        "title": "Scalable and secure cloud",
-        "description": "Infrastructure optimized for performance, cost, and compliance."
-      },
-      "observability": {
-        "title": "Observability and resilience",
-        "description": "Full visibility and automatic recovery for critical systems."
-      },
-      "scrum": {
-        "title": "Incremental delivery with Scrum",
-        "description": "Value delivered continuously with constant feedback."
-      }
-    }
-  },
-  "services": {
-    "title": "Our",
-    "titleHighlight": "Services",
-    "subtitle": "Complete solutions for every phase of the modernization journey.",
-    "cta": "Schedule a call",
-    "items": {
-      "assessment": {
-        "title": "Architecture assessment",
-        "description": "Deep analysis of your current architecture, identifying gaps, risks, and improvement opportunities."
-      },
-      "roadmap": {
-        "title": "Modernization roadmap",
-        "description": "Strategic planning with incremental deliveries that generate value from the first sprint."
-      },
-      "design": {
-        "title": "Solution design",
-        "description": "Modeling with DDD, C4 diagrams, and ADRs for documented architectural decisions."
-      },
-      "implementation": {
-        "title": "Guided implementation",
-        "description": "Hands-on support for your team during execution, ensuring quality and learning."
-      },
-      "cloud": {
-        "title": "Cloud & DevOps platform",
-        "description": "Infrastructure as code setup, CI/CD, observability, and SRE practices."
-      },
-      "workshops": {
-        "title": "Workshops and training",
-        "description": "Team enablement on event-driven, DDD, cloud patterns, and modern practices."
-      }
-    }
-  },
-  "process": {
-    "title": "How We",
-    "titleHighlight": "Work",
-    "subtitle": "A close partnership from start to finish. We don't just deliver documents and leave — we walk alongside you.",
-    "cta": "Let's talk",
-    "ctaSubtitle": "Ready to start your modernization journey?",
-    "steps": {
-      "discovery": {
-        "title": "Discovery & Diagnosis",
-        "description": "Immersion in business and technology context. We understand your challenges, map the current architecture, and identify quick wins."
-      },
-      "architecture": {
-        "title": "Architecture & Roadmap",
-        "description": "We design the target architecture and create a roadmap prioritized by business value and technical feasibility."
-      },
-      "delivery": {
-        "title": "Incremental deliveries",
-        "description": "We work alongside your team in sprints, delivering value at each iteration with continuous knowledge transfer."
-      },
-      "operation": {
-        "title": "Operation & Continuous evolution",
-        "description": "We monitor operations, refine the architecture, and ensure the system evolves sustainably."
-      }
-    }
-  },
-  "segments": {
-    "title": "Industries We",
-    "titleHighlight": "Serve",
-    "subtitle": "Proven experience in sectors with high demand for reliability and scale.",
-    "items": {
-      "health": {
-        "title": "Healthcare",
-        "description": "Critical systems with high availability, compliance, and integration across multiple systems."
-      },
-      "banking": {
-        "title": "Digital banks",
-        "description": "Scalable architectures for real-time transaction processing."
-      },
-      "saas": {
-        "title": "SaaS platforms",
-        "description": "Multi-tenancy, horizontal scalability, and cloud cost optimization."
-      },
-      "modernization": {
-        "title": "Modernizing companies",
-        "description": "Legacy migration to modern architectures without disrupting business."
-      }
-    }
-  },
-  "cases": {
-    "title": "Success",
-    "titleHighlight": "Stories",
-    "subtitle": "Real results from architectural transformations.",
-    "status": "Coming soon",
-    "items": {
-      "health": {
-        "title": "Healthcare platform modernization"
-      },
-      "banking": {
-        "title": "Digital bank architecture"
-      },
-      "saas": {
-        "title": "SaaS monolith migration"
-      }
-    }
-  },
-  "stack": {
-    "title": "Our",
-    "titleHighlight": "Stack",
-    "subtitle": "Technologies and practices we master to deliver robust solutions.",
-    "diagramTitle": "Event-Driven Architecture Flow",
-    "diagramPersistence": "Persistence"
-  },
-  "testimonials": {
-    "title": "What Our",
-    "titleHighlight": "Clients Say",
-    "subtitle": "Feedback from those who have transformed their architecture with us.",
-    "placeholder": "Testimonial coming soon.",
-    "clients": {
-      "health": "Healthcare sector client",
-      "finance": "Financial sector client",
-      "saas": "SaaS client"
-    }
-  },
-  "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Get answers about how we work.",
-    "items": {
-      "contract": {
-        "question": "How does the contract work?",
-        "answer": "We work with flexible contracts, which can be per project, sprints, or monthly retainer. We define scope, deliverables, and success metrics together before starting."
-      },
-      "assessment": {
-        "question": "How long does the assessment take?",
-        "answer": "A typical assessment takes 2 to 4 weeks, depending on system complexity. At the end, you receive a detailed report with diagnosis, prioritized recommendations, and suggested roadmap."
-      },
-      "confidentiality": {
-        "question": "Do you guarantee confidentiality?",
-        "answer": "Yes, we sign an NDA before any immersion. All business and code information is treated with maximum confidentiality."
-      },
-      "remote": {
-        "question": "Is the work remote?",
-        "answer": "Yes, we work 100% remotely with distributed teams. We use asynchronous and synchronous collaboration tools to maintain continuous alignment."
-      },
-      "delivery": {
-        "question": "What delivery models do you offer?",
-        "answer": "We offer: (1) Punctual consulting for architectural decisions, (2) Dedicated squads for implementation, (3) Coaching and mentoring for internal teams, (4) Customized workshops and training."
-      }
-    }
-  },
-  "contact": {
-    "title": "Let's",
-    "titleHighlight": "Talk",
-    "subtitle": "Tell us about your challenge. We'll respond within 24 hours.",
-    "form": {
-      "name": "Name",
-      "namePlaceholder": "Your full name",
-      "email": "Email",
-      "emailPlaceholder": "your@email.com",
-      "company": "Company",
-      "companyPlaceholder": "Your company name",
-      "challenge": "Main challenge",
-      "challengePlaceholder": "E.g.: Legacy modernization",
-      "message": "Message",
-      "messagePlaceholder": "Briefly describe your scenario and objectives...",
-      "submit": "Send message",
-      "sending": "Sending..."
+  "meta": {
+    "home": {
+      "title": "Adilo Bertoncello | Distributed Systems Architect",
+      "description": "I help HealthTechs, FinTechs and growing platforms diagnose and redesign distributed systems that block growth, increase cloud cost and slow delivery."
     },
-    "social": {
-      "title": "Or contact us directly:"
+    "diagnostic": {
+      "title": "Architectural Diagnostic | Adilo Bertoncello",
+      "description": "A structured analysis to identify what's blocking scale and a practical plan to evolve architecture safely."
+    },
+    "about": {
+      "title": "About Adilo Bertoncello | Distributed Systems Architect",
+      "description": "Distributed Systems Architect specialized in cloud and event-driven architectures for growing companies. Over a decade designing and modernizing software systems."
+    },
+    "contact": {
+      "title": "Contact | Adilo Bertoncello",
+      "description": "Tell me what you're building and where it hurts. Let's start a conversation about your architecture challenges."
     }
+  },
+  "header": {
+    "home": "Home",
+    "diagnostic": "Diagnostic",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Book a diagnostic"
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Software architecture that enables predictable scale.",
+        "subheadline": "I help HealthTechs, FinTechs and growing platforms diagnose and redesign distributed systems that block growth, increase cloud cost and slow delivery.",
+        "tags": "Distributed Systems \u2022 Event-Driven \u2022 Cloud \u2022 .NET Modernization",
+        "ctaPrimary": "Book an architectural diagnostic",
+        "ctaSecondary": "Start a conversation"
+      },
+      "positioning": {
+        "text": "Working with engineering teams building scalable cloud systems across Brazil and the United States"
+      },
+      "bottleneck": {
+        "title": "When architecture becomes the bottleneck",
+        "intro": "Engineering leaders usually reach me when:",
+        "items": [
+          "The system can't scale without adding more infrastructure",
+          "Cloud costs keep rising faster than usage",
+          "Delivery slows down across teams",
+          "Services are tightly coupled and fragile",
+          "Changes create unexpected side effects",
+          "Architecture decisions were never made explicitly"
+        ],
+        "close": "At this stage, the problem is rarely technology. It's architecture structure."
+      },
+      "whatIDo": {
+        "title": "Architectural diagnostics and redesign for distributed systems",
+        "body": "I analyze how your system is structured, where coupling lives and what blocks scalability \u2014 then define a clear path to evolve architecture safely.",
+        "focus": [
+          "Domain boundaries and ownership",
+          "Service coupling patterns",
+          "Synchronous vs event-driven flows",
+          "Data ownership and consistency",
+          "Scalability bottlenecks",
+          "Cloud architecture inefficiencies",
+          "Modernization paths for .NET systems"
+        ],
+        "close": "The goal is predictable evolution \u2014 not just short-term fixes."
+      },
+      "specializations": {
+        "title": "Core specializations",
+        "items": {
+          "distributed": {
+            "title": "Distributed Systems & Event-Driven Architecture",
+            "description": "Designing architectures where domains evolve independently, communication is decoupled and scalability emerges naturally."
+          },
+          "cloud": {
+            "title": "Cloud Scalability & Architecture Modernization",
+            "description": "Redesigning systems so infrastructure scales because architecture allows it \u2014 not to compensate for it."
+          },
+          "dotnet": {
+            "title": ".NET Distributed Architecture",
+            "description": "Modernizing .NET systems toward modular, domain-aligned and cloud-ready architectures."
+          }
+        }
+      },
+      "approach": {
+        "title": "Architecture before scale",
+        "body": "Scaling infrastructure without fixing architecture amplifies problems.",
+        "items": [
+          "Diagnosing structural constraints",
+          "Clarifying domain boundaries",
+          "Reducing coupling",
+          "Introducing event-driven flows where needed",
+          "Aligning architecture with business evolution"
+        ],
+        "close": "So systems can grow without becoming fragile."
+      },
+      "aboutTeaser": {
+        "title": "About Adilo Bertoncello",
+        "body": "Distributed Systems Architect specialized in cloud and event-driven architectures for growing companies. Over a decade designing and modernizing software systems where scalability, reliability and evolution are critical.",
+        "expertise": [
+          "Distributed systems architecture",
+          "Event-driven design",
+          "Cloud scalability",
+          ".NET modernization",
+          "Architectural diagnostics"
+        ],
+        "location": "Working with engineering leaders across Brazil and the U.S.",
+        "cta": "More about Adilo"
+      },
+      "ctaBand": {
+        "title": "If your system needs more infrastructure every quarter just to survive",
+        "body": "It may be time to diagnose \u2014 not scale.",
+        "ctaPrimary": "Book an architectural diagnostic",
+        "ctaSecondary": "Start a conversation"
+      }
+    },
+    "diagnostic": {
+      "hero": {
+        "headline": "Architectural Diagnostic",
+        "subheadline": "A structured analysis to identify what's blocking scale \u2014 and a practical plan to evolve architecture safely.",
+        "cta": "Book a diagnostic"
+      },
+      "deliverables": {
+        "title": "What you get",
+        "items": [
+          "Architecture findings report (coupling, boundaries, bottlenecks)",
+          "Target architecture direction (high-level blueprint)",
+          "Prioritized roadmap (30/60/90 days)",
+          "Risk & trade-offs (explicit decisions)",
+          "Quick wins to reduce cost/latency"
+        ]
+      },
+      "assessment": {
+        "title": "What I assess",
+        "items": [
+          "Domain boundaries & ownership",
+          "Communication model (sync vs async)",
+          "Data ownership & consistency",
+          "Reliability/resilience and failure modes",
+          "Observability maturity",
+          "Cloud cost drivers related to architecture",
+          ".NET modernization constraints (if applicable)"
+        ]
+      },
+      "idealFor": {
+        "title": "Ideal for",
+        "items": [
+          "HealthTech/FinTech/growing platforms",
+          "Teams moving to microservices",
+          "Systems with rising cloud costs",
+          "Platforms needing faster delivery with less risk"
+        ]
+      },
+      "process": {
+        "title": "How it works",
+        "steps": {
+          "intake": {
+            "title": "Intake & context",
+            "description": "Understanding your goals, constraints and current challenges."
+          },
+          "mapping": {
+            "title": "System mapping",
+            "description": "Analyzing services, data flows and architectural patterns."
+          },
+          "workshop": {
+            "title": "Findings workshop",
+            "description": "Discussing patterns, risks and opportunities together."
+          },
+          "roadmap": {
+            "title": "Roadmap & decisions",
+            "description": "Delivering prioritized recommendations with ADR-style documentation."
+          },
+          "support": {
+            "title": "Optional support",
+            "description": "Implementation guidance and ongoing architectural support."
+          }
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "items": {
+          "timeline": {
+            "question": "How long does a diagnostic take?",
+            "answer": "Typically 1\u20132 weeks depending on system complexity and team availability."
+          },
+          "access": {
+            "question": "What access do you need?",
+            "answer": "Read access to repositories, architecture documentation (if available), and time with key engineers and stakeholders."
+          },
+          "outputs": {
+            "question": "What format are the outputs?",
+            "answer": "You receive a written report with diagrams, a recorded findings walkthrough, and ADR-style decision documentation."
+          },
+          "pricing": {
+            "question": "How is pricing structured?",
+            "answer": "Pricing depends on scope and complexity. Contact me to discuss your specific situation."
+          }
+        }
+      },
+      "ctaBand": {
+        "title": "Ready to understand what's blocking your architecture?",
+        "body": "Let's start with a conversation about your challenges.",
+        "ctaPrimary": "Book a diagnostic",
+        "ctaSecondary": "Start a conversation"
+      }
+    },
+    "about": {
+      "hero": {
+        "headline": "Hi, I'm Adilo.",
+        "intro": "Distributed Systems Architect helping growing companies build scalable, maintainable systems."
+      },
+      "story": {
+        "title": "Background",
+        "paragraphs": [
+          "For over a decade, I've been designing and modernizing distributed systems for companies where scalability, reliability and evolution are critical.",
+          "I've worked with engineering teams across Brazil and the United States, helping them navigate complex architectural decisions \u2014 from migrating monoliths to microservices, to implementing event-driven patterns, to optimizing cloud infrastructure.",
+          "My focus is on systems that need to scale predictably without accumulating technical debt that slows down delivery."
+        ]
+      },
+      "beliefs": {
+        "title": "What I believe",
+        "items": [
+          "Architecture is a decision system, not a diagram",
+          "Predictable scale comes from structural clarity, not more infrastructure",
+          "Domain boundaries should follow business boundaries",
+          "The best architecture is the one your team can evolve",
+          "Technical decisions should be explicit, documented and reversible"
+        ]
+      },
+      "expertise": {
+        "title": "Areas of expertise",
+        "items": [
+          "Distributed systems architecture",
+          "Event-driven design",
+          "Cloud scalability (Azure, AWS)",
+          ".NET modernization",
+          "Domain-Driven Design",
+          "Architectural diagnostics"
+        ]
+      },
+      "workWith": {
+        "title": "Who I work with",
+        "body": "I typically work with CTOs, Heads of Engineering and Tech Leads at scale-ups and growing platforms who are facing architectural challenges that affect delivery, cost or reliability.",
+        "cta": "Let's talk"
+      }
+    },
+    "contact": {
+      "hero": {
+        "headline": "Let's talk",
+        "intro": "Tell me what you're building and where it hurts."
+      },
+      "form": {
+        "name": "Name",
+        "namePlaceholder": "Your name",
+        "email": "Email",
+        "emailPlaceholder": "your@email.com",
+        "company": "Company",
+        "companyPlaceholder": "Your company (optional)",
+        "role": "Role",
+        "rolePlaceholder": "Your role (optional)",
+        "message": "Message",
+        "messagePlaceholder": "Tell me about your architecture challenges...",
+        "submit": "Send message",
+        "sending": "Sending...",
+        "success": "Message sent! I'll get back to you soon.",
+        "error": "Something went wrong. Please try again or email me directly."
+      },
+      "info": {
+        "title": "Or reach out directly",
+        "email": "contato@archflow.tech",
+        "linkedin": "LinkedIn"
+      }
+    }
+  },
+  "common": {
+    "ctaPrimary": "Book an architectural diagnostic",
+    "ctaSecondary": "Start a conversation",
+    "learnMore": "Learn more",
+    "backToHome": "Back to home"
   },
   "footer": {
-    "rights": "All rights reserved."
+    "tagline": "Archflow.tech \u2014 Architecture for scalable systems",
+    "rights": "All rights reserved.",
+    "nav": {
+      "home": "Home",
+      "diagnostic": "Architectural Diagnostic",
+      "about": "About",
+      "contact": "Contact"
+    }
   }
 }
