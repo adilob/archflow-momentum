@@ -16,7 +16,7 @@ export const SpecializationsSection = () => {
   const specializations = ["distributed", "cloud", "dotnet"] as const;
 
   return (
-    <section className="py-20 md:py-28">
+    <section className="py-24 md:py-32">
       <div className="section-container">
         <motion.div
           className="text-center mb-12"

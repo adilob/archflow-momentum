@@ -15,7 +15,7 @@ export const CTABandSection = () => {
   const contactPath = getLocalizedRoute("contact", language);
 
   return (
-    <section className="py-20 md:py-28 bg-gradient-to-r from-primary/10 to-cyan-flow/10">
+    <section className="py-24 md:py-32 bg-gradient-to-r from-primary/10 to-cyan-flow/10">
       <div className="section-container">
         <motion.div
           className="max-w-3xl mx-auto text-center"

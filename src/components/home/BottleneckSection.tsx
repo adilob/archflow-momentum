@@ -11,7 +11,7 @@ export const BottleneckSection = () => {
   const items = tArray("pages.home.bottleneck.items");
 
   return (
-    <section className="py-20 md:py-28">
+    <section className="py-24 md:py-32">
       <div className="section-container">
         <motion.div
           className="max-w-3xl mx-auto"
