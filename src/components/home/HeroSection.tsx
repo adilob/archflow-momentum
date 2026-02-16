@@ -32,7 +32,7 @@ export const HeroSection = () => {
             transition={{ duration: 0.8 }}
           >
             <motion.h1
-              className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
+              className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight tracking-tight mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -41,7 +41,7 @@ export const HeroSection = () => {
             </motion.h1>
 
             <motion.p
-              className="text-lg md:text-xl text-muted-foreground mb-6 max-w-2xl lg:mx-0 mx-auto"
+              className="text-lg md:text-xl text-muted-foreground mb-6 max-w-xl lg:mx-0 mx-auto leading-relaxed"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
@@ -50,7 +50,7 @@ export const HeroSection = () => {
             </motion.p>
 
             <motion.p
-              className="text-sm text-primary font-medium mb-10"
+              className="text-sm text-primary font-medium mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
@@ -91,6 +91,16 @@ export const HeroSection = () => {
                 {t("pages.home.hero.ctaSecondary")}
               </Link>
             </motion.div>
+
+            {/* Authority Line */}
+            <motion.p
+              className="text-sm text-muted-foreground/80 mt-8 text-center lg:text-left"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.8, delay: 0.8 }}
+            >
+              {t("pages.home.hero.authorityLine")}
+            </motion.p>
           </motion.div>
 
           {/* Right Column - Portrait */}
@@ -100,11 +110,11 @@ export const HeroSection = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            <div className="relative w-64 sm:w-80 lg:w-full lg:max-w-lg">
+            <div className="relative w-64 sm:w-80 lg:w-full lg:max-w-md">
               {hasPortrait ? (
                 <>
                   {/* Left shadow gradient for blending */}
-                  <div className="absolute inset-y-0 left-0 w-24 lg:w-32 bg-gradient-to-r from-[#0B0F14] via-[#0B0F14]/80 to-transparent z-10 pointer-events-none" />
+                  <div className="absolute inset-y-0 left-0 w-32 lg:w-40 bg-gradient-to-r from-[#0B0F14] via-[#0B0F14]/80 to-transparent z-10 pointer-events-none" />
 
                   {/* Subtle glow effect */}
                   <div className="absolute -inset-4 bg-primary/5 blur-3xl -z-10" />
@@ -115,6 +125,7 @@ export const HeroSection = () => {
                     alt="Adilo Bertoncello - Distributed Systems Architect"
                     className="relative rounded-lg w-full h-auto object-cover shadow-2xl"
                     style={{
+                      filter: "contrast(1.05) brightness(0.96)",
                       boxShadow:
                         "4px 0 20px -2px rgba(37, 99, 235, 0.3), inset -1px 0 0 rgba(37, 99, 235, 0.2)",
                     }}

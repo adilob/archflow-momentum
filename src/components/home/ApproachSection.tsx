@@ -11,7 +11,7 @@ export const ApproachSection = () => {
   const items = tArray("pages.home.approach.items");
 
   return (
-    <section className="py-20 md:py-28 bg-card/30">
+    <section className="py-24 md:py-32 bg-card/30">
       <div className="section-container">
         <motion.div
           className="max-w-3xl mx-auto"
