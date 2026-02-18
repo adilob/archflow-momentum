@@ -105,7 +105,7 @@ export const ContactSection = () => {
                 <h3 className="font-display font-semibold text-lg mb-2">{t("contact.social.title")}</h3>
               </div>
               <div className="space-y-4">
-                <a href="https://linkedin.com/company/archflowtech" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 rounded-lg bg-muted/50 hover:bg-muted transition-colors group">
+                <a href="https://www.linkedin.com/in/adilo-eduardo-bertoncello/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 rounded-lg bg-muted/50 hover:bg-muted transition-colors group">
                   <Linkedin size={24} className="text-primary" />
                   <div className="flex-1"><p className="font-medium text-sm">LinkedIn</p><p className="text-muted-foreground text-xs">@archflowtech</p></div>
                   <ArrowRight size={16} className="text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />

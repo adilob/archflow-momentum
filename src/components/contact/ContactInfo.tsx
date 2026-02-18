@@ -31,7 +31,7 @@ export const ContactInfo = () => {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/adilobertoncello"
+              href="https://www.linkedin.com/in/adilo-eduardo-bertoncello/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg glass-card hover:bg-primary/10 transition-colors"
