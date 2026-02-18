@@ -62,7 +62,7 @@ export const Footer = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <a
-              href="https://www.linkedin.com/in/adilobertoncello"
+              href="https://www.linkedin.com/in/adilo-eduardo-bertoncello/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
