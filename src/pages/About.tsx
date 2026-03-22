@@ -9,6 +9,7 @@ import {
   StorySection,
   BeliefsSection,
   WorkWithSection,
+  NotForSection,
 } from "@/components/about";
 
 const About = () => {
@@ -49,6 +50,7 @@ const About = () => {
         <StorySection />
         <BeliefsSection />
         <WorkWithSection />
+        <NotForSection />
       </main>
       <Footer />
     </>
