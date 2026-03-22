@@ -279,6 +279,17 @@
     "learnMore": "Learn more",
     "backToHome": "Back to home"
   },
+  "testimonials": {
+    "title": "What people say about the work",
+    "items": [
+      {
+        "quote": "We worked together on modernizing our platform and the result exceeded expectations.",
+        "author": "João Silva",
+        "role": "CTO",
+        "company": "HealthTech Brasil"
+      }
+    ]
+  },
   "footer": {
     "tagline": "Archflow.tech — Architectural diagnosis and redesign for systems that need to grow.",
     "rights": "All rights reserved.",
