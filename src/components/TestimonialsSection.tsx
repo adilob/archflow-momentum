@@ -1,27 +1,36 @@
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { getTranslation } from "@/utils/i18n";
+import ptTranslations from "@/locales/pt.json";
+import enTranslations from "@/locales/en.json";
+import type { Language } from "@/contexts/LanguageContext";
+
+interface Testimonial {
+  quote: string;
+  author: string;
+  role: string;
+  company: string;
+}
+
+const translationFiles: Record<Language, Record<string, unknown>> = {
+  pt: ptTranslations,
+  en: enTranslations,
+};
+
+const getTestimonials = (language: Language): Testimonial[] => {
+  const data = translationFiles[language] as Record<string, unknown>;
+  const testimonials = data?.testimonials as { items?: Testimonial[] } | undefined;
+  return testimonials?.items ?? [];
+};
 
 export const TestimonialsSection = () => {
-  const { t } = useLanguage();
+  const { language } = useLanguage();
+  const t = (key: string) => getTranslation(key, language);
 
-  const testimonials = [
-    {
-      quote: t("testimonials.placeholder"),
-      author: t("testimonials.clients.health"),
-      role: "CTO",
-    },
-    {
-      quote: t("testimonials.placeholder"),
-      author: t("testimonials.clients.finance"),
-      role: "VP of Engineering",
-    },
-    {
-      quote: t("testimonials.placeholder"),
-      author: t("testimonials.clients.saas"),
-      role: "Head of Engineering",
-    },
-  ];
+  const testimonials = getTestimonials(language);
+
+  if (testimonials.length === 0) return null;
 
   return (
     <section className="py-24 md:py-32 relative">
@@ -34,14 +43,19 @@ export const TestimonialsSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            {t("testimonials.title")} <span className="gradient-text">{t("testimonials.titleHighlight")}</span>
+            {t("testimonials.title")}
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            {t("testimonials.subtitle")}
-          </p>
         </motion.div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <div
+          className={`grid gap-6 ${
+            testimonials.length === 1
+              ? "max-w-xl mx-auto"
+              : testimonials.length === 2
+              ? "grid-cols-1 md:grid-cols-2 max-w-3xl mx-auto"
+              : "grid-cols-1 md:grid-cols-3"
+          }`}
+        >
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
@@ -59,7 +73,9 @@ export const TestimonialsSection = () => {
                 <div className="w-10 h-10 rounded-full bg-gradient-flow opacity-30" />
                 <div>
                   <p className="font-medium text-sm">{testimonial.author}</p>
-                  <p className="text-muted-foreground text-xs">{testimonial.role}</p>
+                  <p className="text-muted-foreground text-xs">
+                    {testimonial.role}, {testimonial.company}
+                  </p>
                 </div>
               </div>
             </motion.div>
