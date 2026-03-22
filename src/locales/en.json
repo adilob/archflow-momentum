@@ -27,7 +27,7 @@
   "pages": {
     "home": {
       "hero": {
-        "headline": "Software architecture that enables predictable scale.",
+        "headline": "Technology that doesn't scale isn't an asset. It's a liability.",
         "subheadline": "I help HealthTechs, FinTechs and growing platforms diagnose and redesign distributed systems that block growth, increase cloud cost and slow delivery.",
         "tags": "Distributed Systems \u2022 Event-Driven \u2022 Cloud \u2022 .NET Modernization",
         "ctaPrimary": "Book an architectural diagnostic",
@@ -151,7 +151,7 @@
         ]
       },
       "process": {
-        "title": "How it works",
+        "title": "The Archflow Method — five steps from diagnosis to continuous evolution",
         "steps": {
           "intake": {
             "title": "Intake & context",
@@ -192,7 +192,7 @@
           },
           "pricing": {
             "question": "How is pricing structured?",
-            "answer": "Pricing depends on scope and complexity. Contact me to discuss your specific situation."
+            "answer": "The investment varies with the size and complexity of your system. The diagnostic exists so you know exactly what you're dealing with before any larger commitment. It starts with a no-cost conversation."
           }
         }
       },
@@ -205,7 +205,7 @@
     },
     "about": {
       "hero": {
-        "headline": "Hi, I'm Adilo.",
+        "headline": "Well-designed distributed systems don't stall. I help build that kind of system.",
         "intro": "Distributed Systems Architect helping growing companies build scalable, maintainable systems."
       },
       "story": {
@@ -240,7 +240,9 @@
       "workWith": {
         "title": "Who I work with",
         "body": "I typically work with CTOs, Heads of Engineering and Tech Leads at scale-ups and growing platforms who are facing architectural challenges that affect delivery, cost or reliability.",
-        "cta": "Let's talk"
+        "cta": "Let's talk",
+        "notForTitle": "Who I don't work with",
+        "notFor": "I don't work with early-stage startups without a structured operation, nor with companies looking only for one-off development or isolated bug fixes. My focus is on systems that already exist and need to scale — not on MVPs."
       }
     },
     "contact": {
@@ -277,8 +279,19 @@
     "learnMore": "Learn more",
     "backToHome": "Back to home"
   },
+  "testimonials": {
+    "title": "What people say about the work",
+    "items": [
+      {
+        "quote": "We worked together on modernizing our platform and the result exceeded expectations.",
+        "author": "João Silva",
+        "role": "CTO",
+        "company": "HealthTech Brasil"
+      }
+    ]
+  },
   "footer": {
-    "tagline": "Archflow.tech \u2014 Architecture for scalable systems",
+    "tagline": "Archflow.tech — Architectural diagnosis and redesign for systems that need to grow.",
     "rights": "All rights reserved.",
     "nav": {
       "home": "Home",
