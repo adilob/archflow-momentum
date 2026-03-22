@@ -280,7 +280,7 @@
     "backToHome": "Back to home"
   },
   "footer": {
-    "tagline": "Archflow.tech \u2014 Architecture for scalable systems",
+    "tagline": "Archflow.tech — Architectural diagnosis and redesign for systems that need to grow.",
     "rights": "All rights reserved.",
     "nav": {
       "home": "Home",
