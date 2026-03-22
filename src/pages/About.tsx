@@ -50,6 +50,7 @@ const About = () => {
         <StorySection />
         <BeliefsSection />
         <WorkWithSection />
+        <NotForSection />
       </main>
       <Footer />
     </>
