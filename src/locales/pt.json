@@ -278,7 +278,7 @@
     "backToHome": "Voltar ao início"
   },
   "footer": {
-    "tagline": "Archflow.tech — Arquitetura para sistemas escaláveis",
+    "tagline": "Archflow.tech — Diagnóstico e redesenho arquitetural para sistemas que precisam crescer.",
     "rights": "Todos os direitos reservados.",
     "nav": {
       "home": "Início",
