@@ -240,7 +240,9 @@
       "workWith": {
         "title": "Who I work with",
         "body": "I typically work with CTOs, Heads of Engineering and Tech Leads at scale-ups and growing platforms who are facing architectural challenges that affect delivery, cost or reliability.",
-        "cta": "Let's talk"
+        "cta": "Let's talk",
+        "notForTitle": "Who I don't work with",
+        "notFor": "I don't work with early-stage startups without a structured operation, nor with companies looking only for one-off development or isolated bug fixes. My focus is on systems that already exist and need to scale — not on MVPs."
       }
     },
     "contact": {
