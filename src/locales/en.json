@@ -27,7 +27,7 @@
   "pages": {
     "home": {
       "hero": {
-        "headline": "Software architecture that enables predictable scale.",
+        "headline": "Technology that doesn't scale isn't an asset. It's a liability.",
         "subheadline": "I help HealthTechs, FinTechs and growing platforms diagnose and redesign distributed systems that block growth, increase cloud cost and slow delivery.",
         "tags": "Distributed Systems \u2022 Event-Driven \u2022 Cloud \u2022 .NET Modernization",
         "ctaPrimary": "Book an architectural diagnostic",
