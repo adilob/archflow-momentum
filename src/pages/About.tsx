@@ -9,6 +9,7 @@ import {
   StorySection,
   BeliefsSection,
   WorkWithSection,
+  NotForSection,
 } from "@/components/about";
 
 const About = () => {
