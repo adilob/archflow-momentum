@@ -27,7 +27,7 @@
   "pages": {
     "home": {
       "hero": {
-        "headline": "Arquitetura de software para escalar com previsibilidade.",
+        "headline": "Tecnologia que não escala não é ativo. É risco.",
         "subheadline": "Eu ajudo HealthTechs, FinTechs e plataformas em crescimento a diagnosticar e redesenhar sistemas distribuídos que travam o crescimento, aumentam o custo de nuvem e deixam a entrega lenta.",
         "tags": "Sistemas Distribuídos • Event-Driven • Cloud • Modernização .NET",
         "ctaPrimary": "Agendar diagnóstico arquitetural",
