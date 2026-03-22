@@ -279,6 +279,17 @@
     "learnMore": "Saiba mais",
     "backToHome": "Voltar ao início"
   },
+  "testimonials": {
+    "title": "O que dizem sobre o trabalho",
+    "items": [
+      {
+        "quote": "Trabalhamos juntos na modernização da nossa plataforma e o resultado superou as expectativas.",
+        "author": "João Silva",
+        "role": "CTO",
+        "company": "HealthTech Brasil"
+      }
+    ]
+  },
   "footer": {
     "tagline": "Archflow.tech — Diagnóstico e redesenho arquitetural para sistemas que precisam crescer.",
     "rights": "Todos os direitos reservados.",
